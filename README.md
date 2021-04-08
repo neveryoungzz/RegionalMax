@@ -10,8 +10,10 @@ Here we embed both the sequence data and the scalar data to a default 8 dimensio
 
 utils.py:
 The utils.py is to generate the labels of the test data. You can run the job as:
+
 `python utils.py data/test_seq.csv data/test_scalar.csv data/test_label.csv`
 
 model.py:
 The model.py is the modeling and the inference of the the data. You can run the job as:
+
 `python model.py`
